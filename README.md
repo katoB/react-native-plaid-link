@@ -20,7 +20,8 @@ yarn link react-native-webview
 
 | Prop                                                                       | Type       | defaultValue          |
 | -------------------------------------------------------------------------- | ---------- | --------------------- |
-| **publicKey** (required)                                                   | `string`   |                       |
+| **publicKey** (deprecated! Do not use!)                                    | `string`   |                       |
+| **linkToken**(required)                                                    | `string`   |
 | **onMessage** (required)                                                   | `function` |                       |
 | **env** (required)                                                         | `string`   |                       |
 | **product** (required)                                                     | `string`   |                       |
