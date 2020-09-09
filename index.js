@@ -38,7 +38,6 @@ class PlaidAuthenticator extends Component {
     uri = userEmail !== undefined ? `${uri}&userEmail=${userEmail}` : uri;
     uri = userLegalName !== undefined ? `${uri}&userLegalName=${userLegalName}` : uri;
     uri = webhook !== undefined ? `${uri}&webhook=${webhook}` : uri;
-    console.log(uri)
     return (
       <WebView
         {...omit(this.props, [
