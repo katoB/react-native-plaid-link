@@ -39,7 +39,7 @@ yarn link react-native-webview
 render() {
   return <PlaidAuthenticator
     onMessage={this.onMessage}
-    publicKey="YOUR_PLAID_PUBLIC_KEY"
+    linkToken="YOUR_PLAID_LINK_TOKEN"
     env="sandbox"
     product="auth,transactions"
     clientName="Catalin Miron"
