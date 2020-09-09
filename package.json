@@ -1,6 +1,6 @@
 {
   "name": "react-native-plaid-link",
-  "version": "1.5",
+  "version": "1.4.5",
   "description": "React Native Plaid Link Webview authenticator",
   "main": "index.js",
   "scripts": {
